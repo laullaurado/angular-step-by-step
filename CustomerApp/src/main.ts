@@ -1,12 +1,14 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { importProvidersFrom } from '@angular/core';
+import { MainModule } from './CustomerApp/CustomerApp.MainModule';
+import { MasterPageComponent } from './CustomerApp/Home/CustomerApp.MasterPageComponent';
 import { BrowserModule } from '@angular/platform-browser';
-import { CustomerComponent } from './CustomerApp/CustomerApp.component';
 import { FormsModule } from '@angular/forms';
 
-bootstrapApplication(CustomerComponent, {
+bootstrapApplication(MasterPageComponent, {
   providers: [
     importProvidersFrom(
+      MainModule,
       BrowserModule,
       FormsModule
     )

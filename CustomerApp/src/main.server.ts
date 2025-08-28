@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { CustomerComponent } from './CustomerApp/CustomerApp.component';
+import { MasterPageComponent } from './CustomerApp/Home/CustomerApp.MasterPageComponent';
 
-const bootstrap = () => bootstrapApplication(CustomerComponent);
+const bootstrap = () => bootstrapApplication(MasterPageComponent);
 
 export default bootstrap;

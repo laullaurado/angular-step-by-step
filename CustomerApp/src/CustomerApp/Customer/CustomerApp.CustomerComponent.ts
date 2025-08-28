@@ -7,7 +7,7 @@ import { Customer } from './CustomerApp.model';
   selector: 'app-root',
   standalone: true,
   imports: [FormsModule, CommonModule],
-  templateUrl: './CustomerApp.view.html',
+  templateUrl: './CustomerApp.CUstomerView.html',
   // styleUrl: './app.component.css'
 })
 export class CustomerComponent {
